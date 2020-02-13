@@ -1,56 +1,77 @@
 body{
 	margin:0;
 	padding: 0;
+	font-family: arial,sans-serif;
+}
+
+.clearfix{
+	clear: both;
 }
 
 nav.nav-header {
     float: right;
     margin-right: 3%;
     margin-top: 1em;
+    font-size: 14px;
 }
 nav.nav-header button{
     background-color: blue;
-    color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
 }
+nav.nav-header button a{
+    color: white;
+    text-align: center;
+    padding:0;
+}
+
 .nav-header a {
     text-decoration: none;
     color: #000;
     padding-right: 10px;
+    font-size: 13px;
 }
 .nav-header a:hover {
     text-decoration: underline;
 }
-img.main-img {
+.nav-header button a:hover {
+    text-decoration: none;
+}
+/*img.main-img {
     display: block;
     margin: auto;
-    clear: both;
-}
+}*/
 footer{
 	background-color: #f2f2f2;
 	position: absolute;
     width: 100%;
     bottom: 0;
-    border: 1px solid lightgray;
+    border: 1px solid #e4e4e4;
     /*padding: 0px 10px;*/
 }
 footer nav{
-	border-top: 1px solid lightgray;
-	height: 3em;
+	/*border-top: 1px solid lightgray;*/
+	height: 2em;
+	font-size: small;
 }
 footer p, footer nav a{
 	color: rgba(0,0,0,.54);
-	padding: 0px 10px;
+	padding-left: 25px;
 	text-decoration: none;
+}
+footer p {
+    border-bottom: 1px solid #e4e4e4;
+    height: 2em;
+    font-size: 14px;
 }
 footer nav a:hover{
 	text-decoration: underline;
 }
 span.foot-nav {
     float: right;
+    padding-right: 25px;
 }
 form button {
     background-color: #f5f5f5;
@@ -71,26 +92,31 @@ button:focus {
     outline: none;
 }
 form input[type="text"] {
-    width: 50%;
-    padding: 16px;
+    width: 35%;
+    padding: 14px;
     border-radius: 20px;
-    border: 1px solid lightgray;
-    margin-bottom: 3%;
+    border: 1px solid #e4e4e4;
+    margin: 2% 0; 
 }
 input[type="text"]:hover {
-    box-shadow: 0px 0px 2px 2px lightgray;
+    box-shadow: 0 0 2px 2px lightgray;
 }
 form input[type="text"]:focus {
     outline: none;
+    box-shadow: 0 0 2px 2px lightgray;
 }
 .container-center {
     text-align: center;
+    margin-top: 10%;
 }
 .lang a {
     text-decoration: none;
-    padding-right: 5px;
+    padding-left: 5px;
 }
 .lang a:hover {
     text-decoration: underline;
+}
+.lang a, .lang p{
+	font-size: small;
 }
 
