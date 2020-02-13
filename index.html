@@ -3,28 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
 
-<nav>
+<nav class="nav-header">
 	<a href="https://www.google.com/intl/fil/gmail/about/#">Gmail</a> 
 	<a href="https://www.google.com.ph/imghp?hl=en&tab=wi&ogbl">Images</a> 
 	<a href="#">Menu</a> 
-	<a href="#">Sign In</a>	
+	<button type="button">Sign In</button>
 </nav>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" width="350px">
+<div class="container-center">
+	<img class="main-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" width="350px">
 
-<form>
-	<input type="text" name="search" placeholder="Search Google">
+	<form>
+		<input type="text" name="search">
+		<br>
+		<button type="button">Google Search</button>
+		<button type="button">I'm Feeling Lucky</button>
+	</form>
 
-	<button type="button">Google Search</button>
-	<button type="button">I'm Feeling Lucky</button>
-</form>
+	<div class="lang">
+		<p>Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p>
+	</div>
 
-<div>
-	<p>Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p>
 </div>
+
 
 <footer>
 	<p>Philippines</p>
@@ -33,10 +39,12 @@
 		<a href="#">Business</a>
 		<a href="#">About</a> 
 		<a href="#">How Search works</a>
-		<a href="#">Privacy</a>
-		<a href="#">Terms</a>
-		<a href="#">Settings</a>
-	</nav>	
+			<span class="foot-nav">	
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+			</span>
+	</nav>
 </footer>
 
 </body>
