@@ -6,9 +6,20 @@ body{
 nav.nav-header {
     float: right;
     margin-right: 3%;
+    margin-top: 1em;
+}
+nav.nav-header button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
 .nav-header a {
     text-decoration: none;
+    color: #000;
+    padding-right: 10px;
 }
 .nav-header a:hover {
     text-decoration: underline;
@@ -23,11 +34,25 @@ footer{
 	position: absolute;
     width: 100%;
     bottom: 0;
+    border: 1px solid lightgray;
+    /*padding: 0px 10px;*/
+}
+footer nav{
+	border-top: 1px solid lightgray;
+	height: 3em;
 }
 footer p, footer nav a{
 	color: rgba(0,0,0,.54);
+	padding: 0px 10px;
+	text-decoration: none;
 }
-button {
+footer nav a:hover{
+	text-decoration: underline;
+}
+span.foot-nav {
+    float: right;
+}
+form button {
     background-color: #f5f5f5;
     padding: 10px;
     border-radius: 5px;
@@ -36,7 +61,7 @@ button {
     color: gray;
     margin-right: 10px;
 }
-button:hover {
+form button:hover {
     background-color: whitesmoke;
     box-shadow: 0 0 0 1px #80808080;
     cursor: pointer;
@@ -49,8 +74,11 @@ form input[type="text"] {
     width: 50%;
     padding: 16px;
     border-radius: 20px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     margin-bottom: 3%;
+}
+input[type="text"]:hover {
+    box-shadow: 0px 0px 2px 2px lightgray;
 }
 form input[type="text"]:focus {
     outline: none;
@@ -60,6 +88,7 @@ form input[type="text"]:focus {
 }
 .lang a {
     text-decoration: none;
+    padding-right: 5px;
 }
 .lang a:hover {
     text-decoration: underline;
