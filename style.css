@@ -15,7 +15,7 @@ nav.nav-header {
     font-size: 14px;
 }
 nav.nav-header button{
-    background-color: blue;
+    background-color: #4b70f3;
     padding: 10px 20px;
     border-radius: 3px;
     border: none;
@@ -27,6 +27,7 @@ nav.nav-header button a{
     padding: 0;
     font-weight: bold;
     font-size: 1em;
+    cursor: default;
 }
 
 .nav-header a {
@@ -44,10 +45,12 @@ nav.nav-header button a{
 i.fa.fa-search {
     position: relative;
     left: 30px;
+    filter: opacity(0.5);
 }
 i.fa.fa-microphone{
     position: relative;
     right: 30px;
+    filter: opacity(0.5);
 }
 footer{
 	background-color: #f2f2f2;
@@ -102,7 +105,8 @@ form input[type="text"] {
     padding: 14px;
     border-radius: 20px;
     border: 1px solid #e4e4e4;
-    margin: 2% 0; 
+    margin: 2% 0;
+    text-indent: 2em;
 }
 input[type="text"]:hover {
     /*box-shadow: 0 0 2px 2px lightgray;*/
@@ -115,6 +119,9 @@ form input[type="text"]:focus {
 .container-center {
     text-align: center;
     margin-top: 10%;
+}
+.lang {
+	margin-top: 2%;
 }
 .lang a {
     text-decoration: none;
