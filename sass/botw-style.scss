@@ -1,0 +1,105 @@
+@font-face {
+    font-family: BOTW;
+    src: url('../The-Wild-Breath-of-Zelda.otf') format("opentype");
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+	.custom-header {
+	background-image: url('../botw-img/hero-banner.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 100vh;
+
+    	nav {
+    		text-align: right;
+    		padding-top: 15px;
+
+    		a {
+    			color: white;
+	    		text-decoration: none;
+	    		padding: 15px;
+	    		letter-spacing: 2px;
+	    		// padding-top: 2%;
+    		}
+    	}
+
+	}
+
+	.custom-more {
+		position: absolute;
+		z-index: 10;
+		bottom: 10px;
+		left: 50%;
+	}
+
+
+	.custom-article {
+		width: 40%;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 3%;
+
+			.custom-h1 {
+				font-family: BOTW;
+				color: #429FA4;
+				font-size: 2em;
+				text-align: center;
+				margin: 0 auto;
+				letter-spacing: 2px;
+				
+				.span-h1 {
+					font-size:20px;
+			}
+		}
+	}
+
+.custom-h1 {
+		font-family: BOTW;
+		color: #429FA4;
+		font-size: 2em;
+		text-align: center;
+		margin: 0 auto;
+		letter-spacing: 2px;
+		// margin-top: 3%;
+}
+
+.custom-video {
+	background-image: url('../botw-img/gameplay-bg.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 100vh;
+
+    	.custom-h1 {
+    		padding-top: 4%;
+    	}
+
+ }   
+
+.custom-tips {
+	padding: 0px 3%;
+	background-color: #F2F2F2;
+
+	.custom-h1 {
+		padding-top: 2%;
+		margin: 0;
+	}
+
+	.cardss {
+	  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  transition: 0.3s;
+	  // width: 33%;
+
+	  	.containerss {
+	 	 padding: 2px 16px;
+		}
+	}
+}

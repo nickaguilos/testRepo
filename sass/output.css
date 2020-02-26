@@ -1,0 +1,22 @@
+header .custom-header {
+  background-image: url("/botw-img/hero-banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh; }
+
+article .custom-article {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto; }
+  article .custom-article h1.custom-h1 {
+    font-family: BOTW;
+    color: #429FA4;
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto; }
+  article .custom-article h1.span-h1 {
+    font-size: 20px; }
+
+/*# sourceMappingURL=output.css.map */
