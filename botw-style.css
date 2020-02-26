@@ -1,0 +1,43 @@
+@font-face {
+    font-family: BOTW;
+    src: url("./The Wild Breath of Zelda.otf") format("opentype");
+
+}
+
+header {
+	background-image: url("./botw-img/hero-banner.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    height: 100vh;
+}
+
+.custom-article {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+}
+.custom-h1 {
+	font-family: BOTW;
+	color: #429FA4;
+	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+	}
+
+.span-h1 {
+	font-size:20px;
+}
+
+
+.cardss {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+
+.containerss {
+  padding: 2px 16px;
+}
